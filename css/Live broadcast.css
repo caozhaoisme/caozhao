@@ -1,0 +1,189 @@
+/*京东直播nav开始*/
+.Live{
+	width: 100%;
+}
+.Live1{
+	margin: 0 auto;
+	height: 24px;
+}
+.Live1-1 {
+	display: block;
+	width: 65px;
+	height: 2px;
+	line-height: 24px;
+	border-top: 4px solid #000;
+}
+/*京东直播nav结束*/
+/*大牌开始*/
+/*大牌1开始*/
+.Live2{
+
+}
+.Live2-1{
+	width: 390px;
+	height: 430px;
+	background-color: white;
+	/*border:1px solid red;*/
+}
+.Live2-1-1{
+	margin-top: 30px;
+}
+.Live2-1-11{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.Live2-1-11 img{
+	width: 170px;
+	height: 185px;
+}
+.Live2-1-12{
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 80px;
+}
+.Live2-1-12 img{
+	width: 50px;
+}
+.Live2-1-13{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 40px;
+}
+.Live2-1-13:hover{
+	color: white;
+}
+/*大牌1结束*/
+/*欧乐2开始*/
+.Live2-2-1{
+	margin-left: 200px;
+	margin-top: -185px;
+}
+.Live2-2-11 img{
+	width: 170px;
+	height: 185px;
+}
+.Live2-2-22 img{
+	width: 50px;
+	margin-top: -120px;
+	margin-left: 60px;
+}
+.Live2-2-33{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	margin-top: -40px;
+	margin-left: -80px;
+}
+.Live2-2-33:hover{
+	color: white;
+}
+/*欧乐2结束*/
+/*五一开始*/
+.Live2-3-1{
+	margin-left: 20px;
+	margin-top: -10px;
+}
+.Live2-3-11 img{
+	width: 170px;
+	height: 185px;
+}
+.Live2-3-22{
+
+}
+.Live2-3-22 img{
+	width: 50px;
+	position: absolute;
+	margin-left: 60px;
+	margin-top: -120px;
+}
+.Live2-3-33{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 20px;
+	font-size: 15px;
+	color: white;
+}
+.Live2-3-33:hover{
+	color: white;
+}
+.Live2-4-1{
+	margin-left: 200px;
+	margin-top: -180px;
+}
+.Live2-4-11{
+
+}
+.Live2-4-11 img{
+	width: 170px;
+	height: 178px;
+}
+.Live2-4-22{
+	position: absolute;
+	margin-left: 60px;
+	margin-top: -115px;
+}
+.Live2-4-22 img{
+	width: 50px;
+
+}
+.Live2-4-33{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -30px;
+	font-size: 15px;
+	color: white;
+}
+.Live2-4-33:hover{
+	color: white;
+}
+.Live2-2{
+	width: 390px;
+	height: 430px;
+	background-color: white;
+	/*border:1px solid red;*/
+	margin-left: 10px;
+}
+.Live2-2-111 img{
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 350px;
+	height:375px;
+}
+.Live2-2-222{
+	position: absolute;
+	margin-left: -210px;
+	margin-top: 160px;
+}
+.Live2-2-222 img{
+	width: 60px;
+}
+.Live2-2-333 {
+	position: absolute;
+	margin-left: -290px;
+	margin-top: 300px;
+	font-size: 20px;
+	color: white;
+}
+.Live2-2-333:hover{
+	color: white;
+}
+.Live2-2-444{
+	position: absolute;
+	margin-left: -230px;
+	margin-top: 335px;
+	font-size: 15px;
+	color: white;
+}
+.Live2-2-444:hover{
+	color: white;
+}
+.Live2-3{
+	width: 390px;
+	height: 430px;
+	margin-left: 10px;
+	background-color: white;
+}
+/*五一结束*/
+/*京东直播结束*/

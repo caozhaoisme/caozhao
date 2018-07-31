@@ -1,0 +1,56 @@
+/*轮播图左右边距*/
+.big_Broadcast{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.container {
+	position: relative;
+}
+/*小点的样式*/
+.circle {
+  position: absolute;
+  top: 400px;
+  left: 120px;
+  width: 185px;
+  height: 20px;
+}
+.circle li {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #dfcabb;
+  border-radius: 50%;
+  float: left;
+  margin: 4px;
+  cursor: pointer; /*鼠标经过时变成小手*/
+}
+.circle li:hover{
+	background: #fff;
+}
+/*右边图片边距*/
+.right_image{
+	margin-left: 10px;
+}
+/*图片大小*/
+.right_image img{
+	width: 190px;
+}
+/*图片边距*/
+.images_1{
+	margin-bottom: 10px;
+}
+/*轮播图箭头公共样式*/
+.arrow{
+	position: absolute;
+	z-index: 2px;
+	width: 25px;
+	height: 40px;
+	background:rgba(0,0,0,0.3);
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	top: 200px;
+}
+/*右边箭头边距*/
+#next{
+	margin-left: 565px;
+}

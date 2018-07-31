@@ -1,0 +1,363 @@
+
+		*{
+			margin: 0 auto;
+			padding:0;
+			text-decoration: none;
+			list-style: none;
+		}
+		.paihangbang{
+			width: 1200px;
+			height: 480px;
+			border: 1px solid red;
+		}
+		/*排行榜*/
+		.pai{
+			position: absolute;
+			width: 390px;
+			height: 480px;
+			border: 1px solid lightgray;
+		}
+		.pai-one{
+			width: 390px;
+			height: 60px;
+			/*border: 1px solid blue;*/
+		}
+		.pai-one h2{
+			position: absolute;
+			top: 15px;
+			left: 5px;
+			color: black;
+		}
+		.pai-one img{
+			position:relative;
+			top: 10px;
+			left: 80px;
+		}
+		.pai-one span{
+			position: relative;
+			left: 80px;
+			top: -10px;
+			color: gray;
+		}
+		.pai-two{
+			width: 390px;
+			height: 34px;
+			/*border: 1px solid pink;*/
+			background-color:lightgray;
+		}
+		.pai-two ul li{
+			width: 78px;
+			height: 34px;
+			float: left;
+			margin-top: 5px;
+			font-size: 15px;
+		}
+		.pai-three{
+			width: 390px;
+			height: 321px;
+		}
+		.pai-three div{
+			width: 350px;
+			height: 321px;
+			border-bottom: 1px solid red;
+		}
+		.pai-three div a{
+			display: inline-block;
+			width: 350px;
+			height: 107px;
+		}
+		.pai-three div a img{
+			width: 80px;
+			height: 80px;
+			position: relative;
+			top:10px;
+		}
+		.pai-three div a .num{
+			display: inline-block;
+			width: 30px;
+			height: 40px;
+			font-weight: bold;
+			font-size: 30px;
+			color: red;
+			position: relative;
+			top:-20px;
+		}
+		.pai-three div a .language{
+			display: inline-block;
+			width: 225px;
+			height: 72px;
+			position:relative;
+			top: -10px;
+		}
+		.hide{
+			display: none;
+		}
+		.pai-four{
+			position:relative;
+			top: 20px;
+			left: 150px;
+		}
+		.pai-four ul li{
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border:2px solid gray;
+			float: left;
+			margin-left: 10px;
+        }
+		.pai-four ul li:hover{
+			background-color: red;
+		}
+		/*会买专辑*/
+		.hui{
+			width: 390px;
+			height: 480px;
+			border: 1px solid lightgray;
+			/*position: relative;
+			left: -30px;*/
+		}
+		.hui-one{
+			width: 390px;
+			height: 60px;
+			/*border: 1px solid blue;*/
+		}
+		.hui-one h2{
+			position: relative;
+			top: 15px;
+			left: 10px;
+			color: black;
+		}
+		.hui-one img{
+			position:relative;
+			top: -20px;
+			left: 110px;
+		}
+		.hui-one span{
+			position: relative;
+			left: 110px;
+			top: -40px;
+			color: gray;
+		}
+		.hui-two{
+			width: 350px;
+			height: 355px;
+			/*border: 1px solid red;*/
+		}
+		.hui-two .two-one-one{
+			width: 350px;
+			height: 128px;
+		}
+		.hui-two .two-one-two{
+			width: 366px;
+			height: 105px;
+			/*border: 1px solid blue;*/
+		}
+		.hui-two .two-one h3{
+			width: 250px;
+			height: 30px;
+			/*border: 1px solid pink;*/
+			position: relative;
+			top:20px;
+			left: 20px;
+		}
+		.hui-two .two-one span{
+			display: inline-block;
+			width: 350px;
+			height: 36px;
+			font-size: 15px;
+			overflow:hidden;
+			position: relative;
+			top: 30px;
+		}
+		.hui-three{
+			width: 20px;
+			height: 40px;
+			background-color:gray;
+			opacity:0.6;
+			position:absolute;
+			line-height: 40px;
+			text-align: center;
+			top: 200px;
+    	}
+    	.three-left{
+    		left: 487px;
+    	}
+    	.three-right{
+    		right: 487px;
+    	}
+    	.hui-four{
+			position:relative;
+			top: 20px;
+			left: 150px;
+		}
+		.hui-four ul li{
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border:2px solid gray;
+			float: left;
+			margin-left: 10px;
+        }
+        .ling{
+        	width: 390px;
+        	height: 480px;
+        	position: relative;
+        	left: 405px;
+        	top: -483px;
+        }
+        .ling-one{
+        	width: 390px;
+        	height: 60px;
+        	/*border: 1px solid red;*/
+        }
+        .ling-one h2{
+			position: relative;
+			top: 15px;
+			left: 10px;
+			color: black;
+		}
+		.ling-one img{
+			position:relative;
+			top: -20px;
+			left: 110px;
+		}
+		.ling-one span{
+			position: relative;
+			left: 110px;
+			top: -40px;
+			color: gray;
+		}
+		.ling-two {
+			width: 350px;
+			height: 420px;
+			/*border: 1px solid blue;*/
+		}
+		.ling-two .ling-two-one{
+			width: 350px;
+			height: 354px;
+			/*border: 1px solid pink;*/
+		}
+		.ling-two .ling-two-one .ling-style{
+			width: 350px;
+			height: 354px;
+			/*border: 1px solid green;*/
+		}
+
+		.ling-style .ling-style-one{
+			width: 350px;
+			height: 118px;
+			background: lightgray;
+			/*border: 1px solid orange;*/
+		}
+		.ling-style-one .style-one-one{
+			width: 70px;
+			height: 70px;
+			position:absolute;
+			top: 90px;
+			left: 30px;
+			border-radius: 50%;
+		}
+		.ling-style-one .style-one-two{
+			position: absolute;
+			top: 80px;
+			left:110px;
+		}
+		.style-one-two .style-one-two-1{
+			color: red;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.style-one-two .style-one-two-2{
+			color: gray;
+		}
+		.style-one-two .style-one-two-3{
+			color:gray;
+		}
+		.ling-style-one .style-one-three{
+			position: absolute;
+			top: 70px;
+			right:30px;
+			font-size: 13px;
+			color: gray;
+		}
+		.ling-style .ling-style-two{
+			width: 350px;
+			height: 118px;
+			background-color:lightgray;
+		}
+		.ling-style-two .style-two-one{
+			position: absolute;
+			top: 200px;
+			left: 30px;
+		}
+		.ling-style-two .style-two-two{
+			position: absolute;
+			top:200px;
+			left: 120px;
+		}
+		.style-two-two .style-two-two-1{
+			color: red;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.style-two-two .style-two-two-2{
+			color: gray;
+		}
+		.style-two-two .style-two-two-3{
+			color:gray;
+		}
+		.ling-style-two .style-two-three{
+			position: absolute;
+			right:30px;
+			font-size: 13px;
+			color: gray;
+		}
+		.ling-style .ling-style-three{
+			width: 350px;
+			height: 118px;
+			background-color:lightgray;
+		}
+		.ling-style-three .style-three-one{
+			position: absolute;
+			top: 320px;
+			left: 30px;
+		}
+		.ling-style-three .style-three-two{
+			position:relative;
+			top: 20px;
+			left: 100px;
+		}
+		.style-three-two .style-three-two-1{
+			color: red;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.style-three-two .style-three-two-2{
+			color: gray;
+		}
+		.style-three-two .style-three-two-3{
+			color: gray;
+		}
+		.ling-style-three .style-three-three{
+			position: absolute;
+			top: 310px;
+			right:30px;
+			font-size: 13px;
+			color: gray;
+		}
+		.ling-two-two{
+			position:relative;
+			top: 20px;
+			left: 150px;
+		}
+		.ling-two-two ul li{
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border:2px solid gray;
+			float: left;
+			margin-left: 10px;
+        }
+        .ling-two-two>ul>li:hover{
+        	background-color: red;
+        }

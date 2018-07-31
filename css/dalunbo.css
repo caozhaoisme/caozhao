@@ -1,0 +1,49 @@
+﻿/*设置图片显示大小区域*/
+	#cont{
+		position:relative;
+		width:590px;
+		height:470px;
+		overflow:hidden;
+	}
+	
+	/*设置7张图片的总宽度*/
+	#list{
+		width:5900px;
+		height:400px;
+		position:absolute;
+		z-index:1;
+		/*transition:all 10s ease;*/
+	}
+	
+	/*设置单张图片的样式*/
+	#list img{
+		width:590px;
+		height:470px;
+		float:left;
+	}
+
+	/*设置箭头的共有样式*/
+	.arrow{
+		position:absolute;
+		top:180px;
+		z-index:2;
+		width:20px;
+		height:40px;
+		background:rgba(0,0,0,0.3);
+		font-size:20px;
+		line-height:40px;
+		text-align:center;
+		/*display:none;*/
+
+	}
+	
+	#prev{
+		left:0px;
+	}
+	#next{
+		right:0px;
+	}
+	
+	#cont:hover .arrow{
+		display:block;
+	}

@@ -1,0 +1,136 @@
+/*公共样式*/
+a{
+	text-decoration: none;
+	list-style-type: none;
+}
+.zd_title{
+	margin-left: -30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 45px;
+	width: 100px;
+}
+.zd_title_center{
+	margin-left: 475px;/*整体的左边距*/
+	width: 300px;
+	height: 45px;
+}
+.zd_title_center a{
+	font-family: "microsoft yahei";
+	color: black;
+	display: block;
+	margin: 0 auto;
+	font-size: 35px;
+}
+
+.zd_bottom_row_1{
+	width: 230px;
+	height: 305px;
+	float: left;
+	background-color: white;
+	position: relative;
+}
+.zd_bottom_row_1_bottom a{
+	color: black;
+}
+.zd_bottom_row_2{
+	width: 230px;
+	height: 305px;
+	float: left;
+	margin-left: 10px;
+	background-color: white;
+}
+.zd_bottom_row_1_top img{
+	display: block;
+	width: 170px;
+	height: 170px;
+	margin: 0 auto;
+}
+.zd_bottom_row_1_top{
+	width: 230px;
+	height: 205px;
+}
+.zd_bottom_row_1_bottom{
+	width: 230px;
+	height: 100px;
+}
+.zd_bottom_row_1_bottom_top{
+	width: 198px;
+	margin-left: 20px;
+}
+.zd_bottom_row_1_bottom_top a{
+	
+}
+/*.zd_bottom_row_1_bottom_bottom a{
+	display: block;
+}*/
+.zd_bottom_row_1_bottom_bottom_left{
+	float: left;
+	margin: 30px 0 0 10px;
+}
+.zd_bottom_row_1_bottom_bottom .zd_bottom_row_1_bottom_bottom_left{
+	color: red;
+}
+.zd_bottom_row_1_bottom_bottom_right{
+	float: right;
+	margin: 30px 10px 0 0;
+}
+.zd_bottom_row2{
+	height: 305px;
+	margin-top: 12.5px;
+}
+.cent{
+		width: 230px;
+		height: 305px;
+	}
+	.cent-1 img{
+		width: 170px;
+		height: 170px;
+		margin-left: 30px;
+	}
+	.cent-1-2-1{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.cent-1-2-2{
+		margin-left: 80px;
+		margin-top: 10px;
+	}
+	.cent-1-2-2 a{
+		color: red;
+	}
+
+	.cent-2{
+		width: 230px;
+		height: 305px;
+		background: white;
+		position: relative;
+		top: -244px;
+		opacity: 0;
+		display: block;
+		transition: 0.3s; 
+		-webkit-transition: .5s; 
+		-moz-transition: .5s; 
+	}
+	.cent-2 p{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background:gray;
+		color: white;
+		text-align: center;
+	    line-height: 60px;
+	    transition: all ease 0.4s;
+	    position: relative;
+	    top: 220px;
+		left: 70px;
+	}
+	.cent:hover .cent-2{
+		
+		opacity: 0.8;
+	}
+	.cent:hover .cent-2 p{
+		color: red;
+	}
+
+
